@@ -1,0 +1,16 @@
+cat > .gitignore << 'EOF'
+# Bazel outputs
+bazel-*
+bazel-bin
+bazel-out
+bazel-testlogs
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+venv/
+.venv/
+__pycache__/
+EOF
